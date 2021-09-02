@@ -1,0 +1,41 @@
+*, 
+::after, 
+::before {
+    margin: 0;
+}
+.body {
+    display: grid;
+}
+.mark{
+    border: 1px solid blue;
+}
+.card {
+   width: 18rem;
+} 
+.hero-body {
+    justify-content: center;
+}
+.search {
+    margin: auto;
+    max-width: 40rem;
+    min-height: 100vh;
+}
+.ppal {
+    display: flex;
+    flex-flow: row;
+    width: 80vw;
+    border: blue solid 1px;
+}
+.sectionMain {
+    display: flex;
+    gap: 2rem;
+    flex-flow: row wrap;
+    margin: auto;
+    max-width: 80rem;
+    justify-content: space-evenly;
+    padding: 3rem;
+    /* border: red solid 1px; */
+}
+.padding {
+    padding: 2rem;
+}
