@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"> -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Little shop of ...</title>
+  </head>
+  <body>
+    <main>
+      <header class="header--content">
+        <h1 class="title">Inventario de la biblioteca</h1>
+        <span class="buttons">
+          <button class="button button--new ">Nuevo libro</button>
+          <button class="button button--inventario">Inventario</button>
+        </span>
+      </header>
+      <section class="card">
+        <h1 class="title title--card">Ingresa el nuevo libro</h1>
+        <input type="text" placeholder="Titulo" class="input" id="titulo"/>
+        <input type="text" placeholder="Autor" class="input" id="autor"/>
+        <input type="text" placeholder="Paginas" class="input" id="paginas"/>   
+        <label class="box"
+          >&iquestLo le&iacuteste?
+          <input type="checkbox" checked="checked" class='checkbox'/>
+          <span class="checkmark"></span>
+        </label>
+        <button class='button button--enviar'>Enviar</button>
+      </section>
+      <!-- <section class ='book--card card' id='book'>
+        <h1 class="title title--card title--book">Titulo</h1>
+        <h2>Autor</h2>
+        <h2>Numero de p&aacuteginas</h2>
+        <h2>Le&iacutedo</h2>
+      </section> -->
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
